@@ -1,0 +1,167 @@
+.primeiraparte {
+    background: black;
+}
+.atividade {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    margin-left: 32%;
+    margin-top: 2%;
+
+}
+
+.buttoncusto {
+    background: rgb(50, 142, 247);
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 5px;
+}
+
+.buttonvenda {
+    background: rgb(50, 142, 247);
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 5px;
+}
+
+.calculo01 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    background: white;
+    width: 330px;
+    height: 180px;
+    margin-left: 32%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+input#custo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 326px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+}
+
+input#venda {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    width: 326px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+}
+
+button#calc {
+    background: rgb(50, 142, 247);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 10px blueviolet;
+}
+
+input#resultado {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    text-align: center;
+    width: 326px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 10px blueviolet;
+    background: rgb(173, 173, 245);
+}
+
+.segundaparte {
+    background: rgb(229, 255, 0);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 330px;
+    margin-left: 32%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+input#imposto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 326px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: rgb(248, 5, 5);
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+}
+
+input#comissao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 326px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: rgb(248, 5, 5);
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+}
+
+input#garcom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 326px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: rgb(248, 5, 5);
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+}
+
+button#resultmargem {
+    background: rgb(252, 0, 189);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: rgb(247, 0, 255);
+    outline: none;
+    box-shadow: 0 0 10px blueviolet;
+}

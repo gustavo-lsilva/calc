@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,36 @@
     <script src="main.js"></script>
     <title>Calc</title>
 </head>
+
 <body>
+    <div class="primeiraparte">
+        <div class="atividade">
+            <button class="buttoncusto" onclick="umreal()">Comercio</a>
+            <button class="buttonvenda" onclick="aberto()">Serviço</a>
+        </div>
     
+        <div class="calculo01">
+            <label for="custo">custo produto/serviço</label><input id="custo" type="text"  value="" placeholder="Informe preço Custo do Serviço">
+            <label for="venda">Preço de venda produto/serviço</label><input id="venda" type="text" value="" placeholder="Informe preço de Venda"> 
+            <button id="calc" onclick="calccmv()">Calcular CMV</button>
+    
+            <label for="resultado">Resultado CMV</label><input id="resultado" type="text" disabled="true">
+        </div>
+    </div>
+
+    <div class="segundaparte">
+        <label for="">Aliq Imposto</label><input id="imposto" type="text" value="" placeholder="Informe a Aliquota do Imposto">
+        <label for="">Aliq Comissão</label><input id="comissao" type="text" value="" placeholder="Informe a porcetagem de comissão">
+        <label for="">Aliq Garcom</label><input id="garcom" type="text" value="" placeholder="Informe porcentagem repasse para Garçom">
+        <button id="resultmargem" onclick="calcmargem()">Calcular Custo Variavel %</button>
+        
+        <label for="">Total Custo Variavel</label><input id="totalcustovar" type="text" value="" placeholder="Total Custo Variavel" disabled="true">
+
+        <label for="">Margem de Contribuição</label><input id="margemcontribuicao" type="text" value="" placeholder="Resultado Margem de Contribuição" disabled="true">
+
+    </div>
+    
+
 </body>
+
 </html>
