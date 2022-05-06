@@ -1,32 +1,52 @@
-.primeiraparte {
-    background: black;
+/* dados 1rem = 100% = 16px */
+
+:root {
+    font-size: 62,5%;
+    width: 62,5%;
+    height: 62,5%;
 }
+
+/* Topo */
+.topo {
+    margin-top: 0%;
+    margin-left: 0%;
+    background: black;
+    color: beige;
+    height: 30rem;
+    width: 100%;
+}
+
+/*Informações Dados TOPO*/
+
+.primeiraparte {
+    height: 15rem;
+}
+
 .atividade {
-    background: white;
     display: flex;
+    align-content: center;
     justify-content: space-between;
-    width: 330px;
-    margin-left: 32%;
-    margin-top: 2%;
+    width: 23rem;
+    height: 2rem;
+    margin-left: 25rem;
+    margin-top: 0.5rem;
 
 }
 
 .buttoncusto {
-    background: rgb(50, 142, 247);
+    background: blue;
     color: white;
     text-align: center;
-    width: 150px;
-    height: 30px;
-    border: 5px;
+    width: 10rem;
+    height: 3rem;
 }
 
 .buttonvenda {
-    background: rgb(50, 142, 247);
+    background: blue;
     color: white;
     text-align: center;
-    width: 150px;
-    height: 30px;
-    border: 5px;
+    width: 10rem;
+    height: 3rem;
 }
 
 .calculo01 {
@@ -49,23 +69,22 @@ input#custo {
     height: 35px;
     border: 1px solid;
     border-radius: 7px;
-    border-color: blue;
+    border-color: rgb(41, 5, 248);
     outline: none;
-    box-shadow: 0 0 5px blueviolet;
+    box-shadow: 0 0 5px rgb(43, 220, 226);
 }
 
 input#venda {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 5px;
     width: 326px;
     height: 35px;
     border: 1px solid;
     border-radius: 7px;
-    border-color: blue;
+    border-color: rgb(41, 5, 248);
     outline: none;
-    box-shadow: 0 0 5px blueviolet;
+    box-shadow: 0 0 5px rgb(43, 220, 226);
 }
 
 button#calc {
@@ -87,25 +106,27 @@ button#calc {
 input#resultado {
     display: flex;
     justify-content: center;
-    margin-top: 6px;
     text-align: center;
     width: 326px;
-    height: 30px;
+    height: 35px;
     border: 1px solid;
     border-radius: 7px;
-    border-color: blue;
+    border-color: rgb(41, 5, 248);
     outline: none;
-    box-shadow: 0 0 10px blueviolet;
-    background: rgb(173, 173, 245);
+    box-shadow: 0 0 5px rgb(43, 220, 226);
+    background: rgb(201, 201, 201);
 }
 
+
+/*Segunda Parte */
+
 .segundaparte {
-    background: rgb(229, 255, 0);
+ 
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    height: 250px;
-    width: 330px;
+    height: 25rem;
+    width: 330rem;
     margin-left: 32%;
     margin-top: 15px;
     text-align: center;
@@ -150,6 +171,20 @@ input#garcom {
     box-shadow: 0 0 5px blueviolet;
 }
 
+input#lucrodesejado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 326px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: rgb(248, 5, 5);
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+
+}
+
 button#resultmargem {
     background: rgb(252, 0, 189);
     color: white;
@@ -157,11 +192,24 @@ button#resultmargem {
     display: flex;
     justify-content: center;
     margin-top: 6px;
-    width: 330px;
-    height: 35px;
+    width: 22rem;
+    height: 10rem;
     border: 1px solid;
     border-radius: 7px;
     border-color: rgb(247, 0, 255);
     outline: none;
     box-shadow: 0 0 10px blueviolet;
+}
+
+/*Terceira Parte */
+.terceiraparte {
+ 
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 330px;
+    margin-left: 32%;
+    margin-top: 15px;
+    text-align: center;
 }
